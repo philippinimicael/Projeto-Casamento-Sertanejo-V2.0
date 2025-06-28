@@ -1,0 +1,198 @@
+/* ---------------------------- */
+/* ---------------------------- */
+
+:root {
+    --marrom-escuro: #5E3023;
+    --marrom-claro: #895737;
+    --laranja: #D97D0D;
+    --laranja-claro: #F2B544;
+    --bege: #F3E9DC;
+}
+
+.bg-marrondark {
+    background-color: var(--marrom-escuro);
+}
+
+.bg-laranja {
+    background-color: var(--laranja);
+}
+
+.bg-bege {
+    background-color: var(--bege);
+}
+
+.border-bottom-laranja {
+    border-bottom: 3px solid var(--laranja);
+}
+
+.border-top-laranja {
+    border-top: 3px solid var(--laranja);
+}
+
+.border-laranja {
+    border: 3px solid var(--laranja);
+}
+
+.border-input {
+    border: 1px solid var(--laranja);
+}
+
+.text-marrondark {
+    color: var(--marrom-escuro);
+}
+
+.text-bege {
+    color: var(--bege);
+}
+
+.text-laranja-claro {
+    color: var(--laranja-claro);
+}
+
+.text-laranja {
+    color: var(--laranja);
+}
+
+/* ------------- */
+
+.btn-sertanejo {
+    background-color: var(--laranja);
+    color: var(--marrom-escuro);
+    transition: 0.3s;
+}
+
+.btn-sertanejo:hover {
+    background-color: var(--laranja-claro);
+    transform: translateY(-2px);
+}
+
+.btn-sertanejo-modal {
+    background-color: var(--laranja);
+    color: var(--marrom-escuro);
+    transition: 0.3s;
+}
+
+.btn-sertanejo-modal:hover {
+    background-color: var(--laranja-claro);
+    transform: scale(1.02);
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------- INICIO NAV -------- */
+
+.logo {
+    width: 50px;
+}
+
+.nav-pgs {
+    transition: 0.3s;
+}
+
+.nav-pgs:hover {
+    color: var(--laranja-claro);
+    transform: translateY(-3px);
+}
+
+.border-laranja {
+    border: 3px solid var(--laranja);
+}
+
+.drop-item {
+    text-decoration: none;
+    color: var(--bege);
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.drop-item:hover {
+    color: var(--laranja-claro);
+    transform: translateX(-10px);
+}
+
+/* -------- FIM NAV ----------- */
+/* ---------------------------- */
+/* ------- INICIO MAIN -------- */
+
+.header {
+    height: 50vh;
+    background-color: var(--marrom-claro);
+}
+
+/* --------- FIM MAIN --------- */
+/* ---------------------------- */
+/* ------- INICIO FOOTER ------ */
+
+.redes-footer {
+    background-color: #c55b1a60;
+    color: var(--laranja-claro);
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+
+.redes-footer:hover {
+    transform: translateY(-3px);
+    color: var(--marrom-escuro);
+    background-color: var(--laranja);
+}
+
+.list-link-footer {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-link-footer a {
+    color: var(--bege);
+    text-decoration: none;
+}
+
+.list-link-footer li {
+    transition: 0.3s;
+}
+
+.list-link-footer a:hover,
+.list-link-footer li:hover {
+    color: var(--laranja-claro);
+    transform: translateX(3px);
+}
+
+.list-none-footer {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* -------- FIM FOOTER -------- */
+/* ---------------------------- */
+
+.border-galeria {
+    border: 2px solid var(--laranja);
+}
+
+.img-galeria {
+    transition: 0.3s;
+}
+
+.img-galeria:hover {
+    border: 2px solid var(--marrom-escuro);
+    transform: scale(1.02);
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+
+.card-planos {
+    transition: transform 0.3s;
+}
+
+.card-planos:hover {
+    transform: translateY(-5px);
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+
+.logo-depoimentos {
+    width: 55px;
+}
